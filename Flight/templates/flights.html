@@ -1,0 +1,29 @@
+{% extends "admin/master.html" %}
+{% block body %}
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>Mã chuyến bay</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Ngày giờ bay</th>
+            <th>Hãng bay</th>
+            <th>Giá tiền</th>
+            <th></th>
+        </tr>
+        {% for d in ChuyenBay %}
+        <tr>
+            <td> {{d.maChuyenBay}} </td>
+            <td> {{d.noiDi}} </td>
+            <td> {{d.noiDen}} </td>
+            <td> {{d.ngayGio}} </td>
+            <td> {{d.soHieu}} </td>
+            <td> 30,000 </td>
+            <td>
+                <button type="submit" name="DatVe"> Đặt vé </button>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

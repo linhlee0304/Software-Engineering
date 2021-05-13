@@ -1,0 +1,10 @@
+{% extends "admin/master.html" %}
+{% block body %}
+    {% if current_user.is_authenticated %}
+        <div>
+            <h1>Admin</h1>
+        </div>
+    {% else %}
+        {% include "admin/login/login.html"%}
+    {% endif %}
+{% endblock %}

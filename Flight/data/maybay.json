@@ -1,0 +1,30 @@
+[
+  {
+    "so_hieu": "VA304",
+    "hang_bay": "VietNamAirlines",
+    "so_ghe_hang_1": "34",
+    "so_ghe_hang_2": "270",
+    "tong_ghe": "304"
+  },
+  {
+    "so_hieu": "VJ202",
+    "hang_bay": "VietJet",
+    "so_ghe_hang_1": "22",
+    "so_ghe_hang_2": "180",
+    "tong_ghe": "202"
+  },
+  {
+    "so_hieu": "JS404",
+    "hang_bay": "Jetstar",
+    "so_ghe_hang_1": "44",
+    "so_ghe_hang_2": "360",
+    "tong_ghe": "404"
+  },
+  {
+    "so_hieu": "BB201",
+    "hang_bay": "BamBoo",
+    "so_ghe_hang_1": "36",
+    "so_ghe_hang_2": "165",
+    "tong_ghe": "201"
+  }
+]
